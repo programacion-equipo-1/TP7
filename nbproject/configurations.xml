@@ -32,7 +32,6 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>Estrategia</itemPath>
     <itemPath>LEER</itemPath>
     <itemPath>in.txt</itemPath>
   </logicalFolder>
@@ -50,8 +49,6 @@
           <warningLevel>2</warningLevel>
         </cTool>
       </compileType>
-      <item path="Estrategia" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="LEER" ex="false" tool="3" flavor2="0">
       </item>
       <item path="calculo.c" ex="false" tool="0" flavor2="0">
@@ -94,8 +91,6 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Estrategia" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="LEER" ex="false" tool="3" flavor2="0">
       </item>
       <item path="calculo.c" ex="false" tool="0" flavor2="0">
