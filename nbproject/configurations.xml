@@ -16,9 +16,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>JUEGO_DE_LA_VIDA.c</itemPath>
       <itemPath>calculo.c</itemPath>
       <itemPath>entrada.c</itemPath>
+      <itemPath>main.c</itemPath>
       <itemPath>salida.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -52,8 +52,6 @@
       </compileType>
       <item path="Estrategia" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="JUEGO_DE_LA_VIDA.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="LEER" ex="false" tool="3" flavor2="0">
       </item>
       <item path="calculo.c" ex="false" tool="0" flavor2="0">
@@ -67,6 +65,8 @@
       <item path="general.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="salida.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -96,8 +96,6 @@
       </compileType>
       <item path="Estrategia" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="JUEGO_DE_LA_VIDA.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="LEER" ex="false" tool="3" flavor2="0">
       </item>
       <item path="calculo.c" ex="false" tool="0" flavor2="0">
@@ -111,6 +109,8 @@
       <item path="general.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="salida.c" ex="false" tool="0" flavor2="0">
       </item>

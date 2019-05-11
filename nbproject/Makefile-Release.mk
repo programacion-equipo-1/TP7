@@ -35,9 +35,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/JUEGO_DE_LA_VIDA.o \
 	${OBJECTDIR}/calculo.o \
 	${OBJECTDIR}/entrada.o \
+	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/salida.o
 
 
@@ -65,11 +65,6 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/juego_de_la_vida: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/juego_de_la_vida ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/JUEGO_DE_LA_VIDA.o: JUEGO_DE_LA_VIDA.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/JUEGO_DE_LA_VIDA.o JUEGO_DE_LA_VIDA.c
-
 ${OBJECTDIR}/calculo.o: calculo.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -79,6 +74,11 @@ ${OBJECTDIR}/entrada.o: entrada.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/entrada.o entrada.c
+
+${OBJECTDIR}/main.o: main.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
 
 ${OBJECTDIR}/salida.o: salida.c
 	${MKDIR} -p ${OBJECTDIR}
