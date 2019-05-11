@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/JUEGO_DE_LA_VIDA.o \
+	${OBJECTDIR}/calculo.o \
 	${OBJECTDIR}/entrada.o \
 	${OBJECTDIR}/salida.o
 
@@ -68,6 +69,11 @@ ${OBJECTDIR}/JUEGO_DE_LA_VIDA.o: JUEGO_DE_LA_VIDA.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -Wall -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/JUEGO_DE_LA_VIDA.o JUEGO_DE_LA_VIDA.c
+
+${OBJECTDIR}/calculo.o: calculo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -Wall -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/calculo.o calculo.c
 
 ${OBJECTDIR}/entrada.o: entrada.c
 	${MKDIR} -p ${OBJECTDIR}
