@@ -14,15 +14,17 @@
  * 
  * teclado:
  *  ¿Que devuelve?
- *  El primer caracter colocado por teclado
+ *  El primer caracter de la línea ingresada por teclado
  *  ¿Que hace?
- *  Llama getchar(), toma el primer caracter ignorando el resto
+ *  Al llamar a la función, se detiene el programa, hasta que el ususario ingrese caracteres y oprima ENTER
+ *  Sólo se tendrá en cuenta el primer caracter ingresado (el cual puede ser ENTER), ignorándose los demás
  * 
  * inicializacion:
  *  ¿Que recibe?
  *  Recibe una matriz con dimensiones la cual simboliza el mundo.  
  *  ¿Que hace?
- *  Imprime las condiciones de input
+ *  Imprime las condiciones de input, es decir, cómo ingresar los valores, y cuáles están permitidos
+ *  (actualmente, 0 significa célula muerta, 1 célula viva. Los espacios son ignorados)
  *  Permite al usuario colocar valores en los respectivos lugares de una matriz
  *  
  */
