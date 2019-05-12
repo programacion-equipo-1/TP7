@@ -14,7 +14,7 @@
  * 
  * clean:
  *  ¿Que recibe?
- * 	Recibe la matriz, la cual representa el mundo
+ * 	Recibe un puntero a la matriz, la cual representa el mundo
  * 
  * 	¿Que hace?
  * 	Coloca un 0 en cada celda de la matriz, es decir, mata todas las celdas del mundo
@@ -34,6 +34,8 @@
  * 	¿Que hace?
  * 	sustituye la primer matriz por la segunda matriz
  * 
+ * 
+ * NOTA: Las dimensiones de las matrices con las que trabajan estas funciones están especificadas en el archivo general.h
  */
 
 #ifndef CALCULO_H
