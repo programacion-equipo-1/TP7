@@ -9,6 +9,22 @@
  * Author: tefi
  *
  * Created on May 11, 2019, 12:10 AM
+ * 
+ * Descripcion de Funciones:
+ * 
+ * teclado:
+ *  ¿Que devuelve?
+ *  El primer caracter colocado por teclado
+ *  ¿Que hace?
+ *  Llama getchar(), toma el primer caracter ignorando el resto
+ * 
+ * inicializacion:
+ *  ¿Que recibe?
+ *  Recibe una matriz con dimensiones la cual simboliza el mundo.  
+ *  ¿Que hace?
+ *  Imprime las condiciones de input
+ *  Permite al usuario colocar valores en los respectivos lugares de una matriz
+ *  
  */
 
 #ifndef ENTRADA_H

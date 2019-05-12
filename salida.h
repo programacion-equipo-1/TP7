@@ -9,6 +9,25 @@
  * Author: tefi
  *
  * Created on May 11, 2019, 12:17 AM
+ * 
+ * Descripcion de Funciones:
+ * 
+ * bienvenida:
+ *  ¿Que hace?
+ *  Realiza varios printf, dandole la bienvenida al usuario e informandole las opciones disponibles
+ * 
+ * help:
+ *  ¿Que hace?
+ *  Realiza varios printf, indicandole al usuario las opciones de input por consola y sus respectivas acciones
+ * 
+ * display:
+ *  ¿Que recibe?
+ *  Recibe una matriz la cual simboliza el mundo actual
+ *  Recibe un valor de tiempo el cual esta pensado ser el parametro que indica la progresion de mundos
+ * 
+ *  ¿Que hace?
+ *  Imprime en pantalla el mundo actual en su tiempo actual, dando un formato apropiado y recorriendo el mundo analizando cada celda
+ *  
  */
 
 #ifndef SALIDA_H
