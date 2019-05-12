@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   general.h
  * Author: tefi
  *
  * Created on May 11, 2019, 12:12 AM
+ */
+
+/*
+ * Este header incluye las definiciones empleadas por todas las funciones.
+ * En él puede modificarse la cantidad de filas y columnas del mundo.
  */
 
 #ifndef GENERAL_H

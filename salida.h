@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /* 
  * File:   salida.h
@@ -14,19 +9,19 @@
  * 
  * bienvenida:
  *  ¿Que hace?
- *  Realiza varios printf, dandole la bienvenida al usuario e informandole las opciones disponibles
+ *  Le da la bienvenida al usuario, informandole las opciones disponibles para utilizar el programa
  * 
  * help:
  *  ¿Que hace?
- *  Realiza varios printf, indicandole al usuario las opciones de input por consola y sus respectivas acciones
+ *  Le indica al usuario las opciones de input por consola y sus respectivas acciones
  * 
  * display:
  *  ¿Que recibe?
  *  Recibe una matriz la cual simboliza el mundo actual
- *  Recibe un valor de tiempo el cual esta pensado ser el parametro que indica la progresion de mundos
+ *  Recibe un valor de tiempo el cual indica el número de generaciones pasadas desde la última inicialización
  * 
  *  ¿Que hace?
- *  Imprime en pantalla el mundo actual en su tiempo actual, dando un formato apropiado y recorriendo el mundo analizando cada celda
+ *  Imprime en pantalla el estado del mundo actual, y el número de generación correspondiente
  *  
  */
 
